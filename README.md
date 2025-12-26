@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📊 Analytics Admin Dashboard
 
-## Getting Started
+A product-style analytics admin dashboard inspired by modern analytics platforms.  
+Built with Next.js App Router, this project focuses on clean UI architecture, data visualization, and scalable layout patterns.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo
+👉 (https://analytics-admin-dashboard-five.vercel.app/dashboard)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🧠 Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This dashboard simulates a real-world analytics product, providing an overview of key metrics such as users, sessions, revenue, and recent activity.  
+The goal of this project was to practice **building production-style dashboards**, not just static UI screens.
 
-## Learn More
+Key focus areas:
+- Component reusability
+- App Router architecture
+- Visual hierarchy & readability
+- Data visualization
+- UI polish and animations
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 📈 **KPI Cards** with gradient visuals and clear hierarchy
+- 📊 **Interactive Area Charts** for traffic and revenue analytics
+- 🎛️ **Filter & Controls Bar** (date range, channel, device)
+- 📋 **Orders & Customers Pages** with tables and status indicators
+- 🧭 **Shared Admin Layout** using route groups
+- 🎨 **Smooth Animations** with Framer Motion
+- 📱 **Responsive Design** across screen sizes
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧱 Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **:contentReference[oaicite:0]{index=0}** (App Router)
+- **:contentReference[oaicite:1]{index=1}**
+- Tailwind CSS
+- Recharts (data visualization)
+- Framer Motion (animations)
+
+---
+
+## 🗂️ Project Structure
+
+```txt
+src/
+ ├─ app/
+ │   ├─ (admin)/
+ │   │   ├─ layout.js
+ │   │   ├─ dashboard/
+ │   │   ├─ orders/
+ │   │   ├─ customers/
+ │   │   └─ settings/
+ ├─ components/
+ │   ├─ Sidebar.jsx
+ │   ├─ StatsCard.jsx
+ │   ├─ Chart.jsx
+ │   ├─ DataTable.jsx
+ │   └─ TopControls.jsx
