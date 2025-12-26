@@ -6,7 +6,7 @@ Built with Next.js App Router, this project focuses on clean UI architecture, da
 ---
 
 ## 🚀 Live Demo
-👉 https://YOUR-VERCEL-URL.vercel.app
+👉 (https://analytics-admin-dashboard-five.vercel.app/dashboard)
 
 ---
 
