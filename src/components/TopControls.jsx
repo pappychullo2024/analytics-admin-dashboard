@@ -33,18 +33,18 @@ export default function TopControls() {
 
       {/* Filters */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <select className="bg-white rounded-xl border px-4 py-3 text-sm shadow-sm focus:outline-none">
+        <select className="text-gray-400 bg-white rounded-xl border px-4 py-3 text-sm shadow-sm focus:outline-none">
           <option>Jun 1, 2025 – Jul 7, 2025</option>
         </select>
 
-        <select className="bg-white rounded-xl border px-4 py-3 text-sm shadow-sm focus:outline-none">
+        <select className="text-gray-400 bg-white rounded-xl border px-4 py-3 text-sm shadow-sm focus:outline-none">
           <option>Session channel group</option>
           <option>Organic</option>
           <option>Paid</option>
           <option>Referral</option>
         </select>
 
-        <select className="bg-white rounded-xl border px-4 py-3 text-sm shadow-sm focus:outline-none">
+        <select className="text-gray-400 bg-white rounded-xl border px-4 py-3 text-sm shadow-sm focus:outline-none">
           <option>Device category</option>
           <option>Desktop</option>
           <option>Mobile</option>
